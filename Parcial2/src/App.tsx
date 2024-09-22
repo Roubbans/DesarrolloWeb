@@ -27,7 +27,7 @@ const App = () => {
       creditos,
       descripcion
     };
-    const response = await postData('https://test-deploy-12.onrender.com/cursos/', data);
+    const response = await postData('https://test-deploy-12.onrender.com/cursos', data);
     console.log(response);
   };
 
